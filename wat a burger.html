@@ -1,0 +1,507 @@
+<html>
+	<head>
+		<title>Wat A Burger</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<style>
+		.img-responsive{
+		margin-top:-10px;
+		margin-bottom:30px;
+		}
+		.nav-bar{
+		background-color:#3E9391;
+		}
+		.nav-bor{
+		font-family:Lato;
+		font-size: 14px;
+		font-weight: 700;
+		color:#dddddd;
+		text-transform:uppercase;
+		
+		
+		}
+		.nav-bor:hover{
+		color:orange;
+		}
+		.nav-btn{
+		background-color:f1c31d;
+		color:white;
+		margin-top:10px;
+		border-radius:15px;
+		}
+		.nav-btn:hover{color:#ffffff;
+		}
+		.img-sec{
+		margin-top:-100px;
+		}
+		.carousel-caption{
+		color: #FFFFFF;
+		font-family:Montserrat;
+		text-transform:uppercase;
+		font-size: 67px;
+		font-weight: 900;
+		text-shadow: 4px 4px 0px #E55A23;
+		padding-bottom:100px;
+		}
+		.menu{
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: 800;
+		color: #222222;
+		display: inline-block;
+		padding-left:20px;
+		padding-top:10px;
+		}
+		.menu:hover{
+		text-decoration:none;
+        color:e55a23;
+		}
+		.bor-li{
+		border-bottom:3px solid ;
+		border-color:e55a23;
+		}
+		.veglist{
+		border:2px solid;
+		border-radius:15px;
+		width:60px;
+		padding-left:12px;
+		padding-bottom:1px;
+		background-color:e55a23;
+		text-transform:uppercase;
+		color:#ffffff;
+		}
+		.non-veglist{
+		border:2px solid;
+		border-radius:15px;
+		width:100px;
+		padding-left:12px;
+		padding-bottom:1px;
+		background-color:e55a23;
+		color:#ffffff;
+		text-transform:uppercase;
+		}
+		.listmenu{
+		font-size: 15px;
+		font-weight: 800;
+		color: #222222;
+		padding-left:20px;
+		}
+		.listmenu1{
+		font-size: 20px;
+		font-weight: 1000;
+		color:e55a23;
+		padding-left:200px;
+		}
+		.order-btn{
+		font-size:20px;
+		font-family:Montserrat;
+		background-color:e55a23;
+		color:#ffffff;
+		border-radius:20px;
+		border-width:10px;
+		}
+		.order-btn:hover{
+		background-color:orange;
+		color:#ffffff;
+		}
+		.back-color{
+		background-color:#FFCC66;
+		}
+		.descript{
+		font-family:roboto;
+		color:#7a7a7a;
+		}
+		.border{
+		background-color:#3E9391;
+		padding-bottom:70px;
+		}
+		.line{
+		border-bottom:3px solid #e7e7e7;
+		padding-top:50px;
+		}
+		.formtable{
+		font-family:Montserrat Medium;
+		font-size:22px;
+		font-weight:bolder;
+		color:#ffffff;
+		text-transform:uppercase;
+		padding-top:20px;
+		padding-left:20px;
+		}
+		.form-control{
+		border-radius:15px;
+		padding-top:25px;
+		padding-bottom:25px;
+		padding-left:20px;
+		}
+		#comments{
+		padding-top:25px;
+		padding-bottom:70px;
+		padding-left:20px;
+		}
+		.send-btn{
+		border-radius:10px;
+		padding:20px 60px 20px 60px;
+		background-color:f1c31d;
+		color:ffffff;
+		}
+		.send-btn:hover{
+		color:#ffffff;
+		}
+		.footer-bor{
+		background-color:#236863;
+		padding-bottom:50px;
+		}
+		.footer-nav{
+		color:#ffffff;
+		font-family:Montserrat;
+		padding-left:60px;
+		}
+		.activate{
+		padding-top:20px;
+		padding-left:5px;
+		margin-left:50px;
+		font-size:17px;
+		font-variant:Montserrat;
+		}
+		.footerend{
+		padding-top:100px;
+		color:#ffffff;
+		}
+		.navbar-nav>li>a
+		{
+		color:white;
+		
+		font-family: "Libre Baskerville", serif;
+		}
+		
+		</style>
+		
+	</head>
+	<body>
+		<section class="back-color">
+			<nav class="navbar nav-bar">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#"><img class="img-responsive" src="E:\wat a burger\images\Header-Logo-03-1024x383.png" height="100px" width="150px"></a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav nav-bor">
+							<li class="active"><a href="#">home</a></li> 
+							<li><a href="#">about us</a></li>
+							<li><a href="#">menu</a></li>
+							<li><a href="#">gallery</a></li>
+							<li><a href="#">franchise</a></li>
+							<li><a href="#">storelocator</a></li>
+							<li><a href="#">contact us</a></li>					
+							<li ><button type="button" class="btn nav-btn " style="outline:none;">order online</button></li>
+							</ul>
+					</div>
+				</div>
+			</nav>
+				<section>
+				<div>
+					<img class="img-sec" src="E:\projects\illustration-levitating-burger-fire-black-background-ai_564714-1732.avif" style="width:100%;">
+					<div class="carousel-caption">
+					<p>menu</p>
+					</div>
+				</div><br></section>
+				<section>
+				<div class="container bor-li ">
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+							<a href="#"><image src="https://wataburger.in/wp-content/uploads/2022/09/WAB-Homepage-Menu-Icons-1.png"width="75%">
+							<p class="menu">burgers</p></a>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+							<a href="#"><image src="https://wataburger.in/wp-content/uploads/2022/09/WAB-Homepage-Menu-Icons-2.png"width="75%"> 
+							<p class="menu">wraps and sandwiches</p></a>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+							<a href="#"><image src="https://wataburger.in/wp-content/uploads/2022/09/My-project-1-1.png"width="75%">
+							<p class="menu">signature</p></a>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+							<a href="#"><image src="https://wataburger.in/wp-content/uploads/2022/09/WAB-Homepage-Menu-Icons-4.png"width="75%">
+							<p class="menu">sides</p></a>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+							<a href="#"><image src="https://wataburger.in/wp-content/uploads/2022/09/WAB-Homepage-Menu-Icons-6.png"width="75%">
+							<p class="menu">deserts</p></a>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+							<a href="#"><image src="https://wataburger.in/wp-content/uploads/2022/09/WAB-Homepage-Menu-Icons-5.png"width="75%">
+							<p class="menu">beverages</p></a>
+						</div>
+					</div></section>
+				</div><br><br>
+					<section>
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">veg fantastic slider</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">39/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">chicken fantastic slider</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">79/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Wild Potato Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">239/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Crunchy Aloo Slider</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">59/-</p></div>
+							</div>	
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Chicken Salsa Slider</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">89/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Cheesy Salsa Delight Slider</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">89/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Butter Egg Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">79/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Aloo Achari Burge</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">89/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Chicken Surprise Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">169/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Aloo Bechara Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">99/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Grilled Mutton Kebab Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">149/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Grilled Mutton Kebab Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">99/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Chicken Crispy Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">169/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Aloo Chaat Surprise Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">109/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Veggie Crispy Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">149/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Peri-Peri Mushroom Burger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">159/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="veglist">veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Veg WABBER</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">209/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Aloo Achari + Aloo Achari</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">159/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Peri Peri Chicken + Grilled Mutton Kebab</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">259/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">The Spicy Middle Winger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">139/-</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<p class="non-veglist">non-veg</p></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">The Classic Middle Winger</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">139/-</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu">Karan Arjun</p></div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<p class="listmenu1">199/-</p></div>
+							</div><br>
+							<div>
+							<p class="descript">*All prices are in Indian rupee excluding GST</p>
+							</div>
+							<div><center><button type="button"class="btn order-btn">order now</button></center>
+							</div><br><br>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<img src="https://wataburger.in/wp-content/uploads/2022/09/Sale-Banner-Top-1-1.png"width="img-responsive">
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<img src="https://wataburger.in/wp-content/uploads/2022/09/Sale-Banner-Top-2.png"width="img-responsive">
+								</div>
+							</div><br><br>
+							<div class="row">
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+									<img src="https://wataburger.in/wp-content/uploads/2022/09/Sale-Banner-Bottom-1-1.png"width="img-responsive">
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+									<img src="https://wataburger.in/wp-content/uploads/2022/09/Sale-Banner-Bottom-2-1.png"width="img-responsive">
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+									<img src="https://wataburger.in/wp-content/uploads/2022/09/Sale-Banner-Bottom-3-1.png"width="img-responsive">
+								</div>
+							</div>
+						</div>
+					</section><br><br><br><br>
+		</section>
+			<section class="form">
+				<div class="border"><br><br>
+					<div class="row">
+						<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 line"></div>
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><center><img src="https://wataburger.in/wp-content/uploads/elementor/thumbs/Footer-Logo-Color-pv31fxwwg99aj55285rj7q22czlnj3uour7xdx8fe0.png"width="img-responsive">
+						</center></div>
+						<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 line"></div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="formtable">follow us on</p>
+								<span class='glyphicon glyphicon-facebook'></span>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><p class="formtable">It’s always great to hear from you</p>
+								<div class="form-group">
+									<input type="name"class="form-control"id="name"placeholder="Name"name="name"><br><br>
+									<input type="email"class="form-control"id="email"placeholder="Email"name="email"><br><br>
+									<input type="your comments"class="form-control control1"id="comments"placeholder="your comments"name="comments">
+								</div>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="formtable">Available on</p><br><br>
+								<center>
+									<img class="available" src="https://wataburger.in/wp-content/uploads/2022/09/white-logo-300x76.png"width="50%"><br><br><br>
+									<img class="available" src="https://wataburger.in/wp-content/uploads/2022/09/Zomato-300x71.png"width="50%"><br><br><br>
+									<img class="available" src="https://wataburger.in/wp-content/uploads/2022/09/swiggy1-300x57.png"width="50%">
+								</center>
+							</div>
+						</div><br><br>
+						<div>
+							<center>
+								<button type="button"class="btn send-btn">send</button>
+							</center>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="footer">
+				<div class="footer-bor">
+					<div class="container">
+						<ul class="nav navbar-nav navbar-hidden">
+						<li class="activate"><a href="#">Home</a></li> 
+						<li class="activate"><a href="#">About Us</a></li>
+						<li class="activate"><a href="#">Menu</a></li>
+						<li class="activate"><a href="#">Gallery</a></li>
+						<li class="activate"><a href="#">Franchise</a></li>
+						<li class="activate"><a href="#">Storelocator</a></li>
+						<li class="activate"><a href="#">Contact Us</a></li>
+						<center><p class="footerend">COPYRIGHTS © 2022 Wat-a-Burger. All Rights Reserved.</p></center>
+					</div>
+				</div>
+			</section>
+					
+	</body>
+</html>
+					
+				
+		
